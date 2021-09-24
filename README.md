@@ -15,6 +15,6 @@ This dataset was obtained from the <a href = "https://www.cs.cornell.edu/people/
 </li>
 <li><b>Ursinus tweets</b>: A collection of tweets from the official <a href = "https://twitter.com/UrsinusCollege">Ursinus college twitter account</a></li>
 <li>
-<b>Bush/Kerry Debate Text</b> These text files each have a transcript from a different debate during the 2004 election.  They were obtained from a <a href = "https://www.cs.princeton.edu/courses/archive/spring08/cos226/assignments/markov.html">similar assignment</a> that Prof. Tralie did when he was in college.</b>
+<b>Bush/Kerry Debate Text</b> These text files each have a transcript from a different debate during the 2016 election, as obtained from <a href = "https://www.politico.com/">Politico</a></b>
 </li>
 </ul>

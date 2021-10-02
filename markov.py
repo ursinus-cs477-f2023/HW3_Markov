@@ -23,7 +23,7 @@ class MarkovModel:
         filename: string
             Path to file to load
         """
-        fin = open(filename)
+        fin = open(filename, "rb")
         self.add_string(fin.read())
         fin.close()
     
@@ -37,7 +37,7 @@ class MarkovModel:
         filename: string
             Path to file to load
         """
-        fin = open(filename)
+        fin = open(filename, "rb")
         for line in fin.readlines():
             line = line.rstrip()
             if len(line) > 0:

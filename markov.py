@@ -13,7 +13,7 @@ class MarkovModel:
         self.k = k
         ## TODO: Setup any other member variables that might be useful
     
-    def load_file(self, filename):
+    def load_file(self, filename, lower=False):
         """
         Load in an entire file as one string and add
         it to the model
@@ -22,12 +22,17 @@ class MarkovModel:
         ----------
         filename: string
             Path to file to load
+        lower: boolean
+            If true, convert to lowercase
         """
-        fin = open(filename, "rb")
-        self.add_string(fin.read())
+        fin = open(filename, encoding='utf8')
+        s = fin.read()
+        if lower:
+            s = s.lower()
+        self.add_string(s)
         fin.close()
     
-    def load_file_lines(self, filename):
+    def load_file_lines(self, filename, lower=False):
         """
         Load in an entire file as one string and add
         it to the model
@@ -37,7 +42,7 @@ class MarkovModel:
         filename: string
             Path to file to load
         """
-        fin = open(filename, "rb")
+        fin = open(filename, encoding='utf8')
         for line in fin.readlines():
             line = line.rstrip()
             if len(line) > 0:

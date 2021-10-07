@@ -46,6 +46,8 @@ class MarkovModel:
         for line in fin.readlines():
             line = line.rstrip()
             if len(line) > 0:
+                if lower:
+                    line = line.lower()
                 self.add_string(line)
         fin.close()
     

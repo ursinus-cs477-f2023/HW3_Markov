@@ -75,3 +75,19 @@ class MarkovModel:
         ## TODO: Fill this in
         return 0 # This is a dummy value
 
+    def synthesize_text(self, length):
+        """
+        Synthesize random text of a particular length in the style captured
+        by this model
+
+        Parameters
+        ----------
+        length: int
+            How many characters are in the string to synthesize
+        
+        Returns
+        -------
+        string: The synthesized text
+        """
+        ## TODO: Fill this in
+        return "" # This does nothing

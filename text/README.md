@@ -1,4 +1,4 @@
-# HW2_Markov
+# HW3_Markov
 
 
 ## Text Sources
@@ -13,8 +13,7 @@ This dataset was obtained from the <a href = "https://www.cs.cornell.edu/people/
 <li>
 <b><a name = "spamham">SMS Spam/Ham</a></b>: These files were obtained from the <a href = "https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection">UCI SMS Spam Collection</a> data set.
 </li>
-<li><b>Ursinus tweets</b>: A collection of tweets from the official <a href = "https://twitter.com/UrsinusCollege">Ursinus college twitter account</a></li>
 <li>
-<b>B2016 US Presidental Debate Text</b> These text files each have a transcript from a different debate during the 2016 election, as obtained from <a href = "https://www.politico.com/">Politico</a></b>
+<b>2016 US Presidental Debate Text</b> These text files each have a transcript from a different debate during the 2016 election, as obtained from <a href = "https://www.politico.com/">Politico</a></b>
 </li>
 </ul>
